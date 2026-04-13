@@ -1,0 +1,17 @@
+body.portal-home {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #eef2ff, #f8fafc, #ecfeff);
+}
+.hero-card {
+    max-width: 900px;
+    background: rgba(255,255,255,0.88);
+    backdrop-filter: blur(10px);
+    border-radius: 24px;
+    padding: 4rem 2rem;
+    box-shadow: 0 20px 60px rgba(15, 23, 42, 0.12);
+}
+.timer-box {
+    position: sticky;
+    top: 15px;
+    z-index: 99;
+}
